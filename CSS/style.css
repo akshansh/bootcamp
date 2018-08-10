@@ -1,0 +1,20 @@
+#panel, #flip {
+    background-color: aquamarine;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid coral;
+}
+
+#panel {
+    /* The panel needs to expand when clicked. So, give it a padding. */
+    padding: 50px; 
+    display: none;
+}
+
+/* A box to animate */
+.greenbox {
+    background: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
